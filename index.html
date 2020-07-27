@@ -1,0 +1,42 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Function Practice</title>
+    <meta charset="UTF-8"/>
+  </head>
+  <body>
+    <script>
+//Addition Function
+      function add7(number) {
+        add7 = number + 7;
+      }
+      add7(4)
+      console.log(add7)
+      console.log("Hello, World")
+
+//Multiply Function
+      function multiply(a, b){
+        multiply = a * b;
+      }
+      multiply(4, 5)
+      console.log(multiply)
+
+//Capitalize Function
+      function capitalize(uppercase){
+        let firstLetter = uppercase.toUpperCase()[0];
+        let string = uppercase.slice(1)
+        capitalize = firstLetter + string.toLowerCase();
+      }
+      capitalize("Hello World!")
+      console.log(capitalize)
+
+//Last Letter Function
+      function lastLetter(string){
+       lastLetter = string.charAt(string.length - 1);
+      }
+      lastLetter("abcdaj,fbajhfbasjfbsgakwif.skjfskfhi8ied6")
+      console.log(lastLetter)
+
+    </script>
+  </body>
+</html>
